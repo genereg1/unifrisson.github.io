@@ -1,0 +1,19 @@
+header .header__language {
+    width: auto;
+    height: auto;
+    float: right;
+    padding: 5px 20px 7px;
+    text-align: center;
+    margin: 5px 0;
+    border-radius: 50px;
+    line-height: 100%;
+    background: #F1C40F;
+}
+@media screen and (max-width: 991px) {
+	header .header__language  a {
+		font-size: 12px;
+	}
+	header .header__language {
+			padding: 5px 10px 7px;
+	}
+}
